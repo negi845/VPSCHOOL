@@ -1,0 +1,111 @@
+@{
+    ViewData["Title"] = "Admission";
+}
+
+<!-- Page Header -->
+<section class="page-header">
+    <div class="container">
+        <h1>Admission</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Admission</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+
+<!-- Admission Open Banner -->
+<section class="admission-banner">
+    <div class="container">
+        <div class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
+            <div class="d-flex align-items-center gap-3">
+                <i class="fa-solid fa-bullhorn admission-icon"></i>
+                <div>
+                    <h4 class="mb-1">Admissions Open for Session 2026-27</h4>
+                    <p class="mb-0">Nursery to Class 5 &bull; Apply before seats fill up</p>
+                </div>
+            </div>
+            <a asp-controller="Home" asp-action="Contact" class="btn btn-light-outline">Enquire Now <i class="fa-solid fa-arrow-right ms-1"></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- Classes Offered -->
+<section class="section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="section-tag">Classes Offered</span>
+            <h2 class="section-title">Choose the Right Class for Your Child</h2>
+        </div>
+        <div class="row g-4">
+            @foreach (var cls in SchoolData.ClassesOffered)
+            {
+                <div class="col-lg-3 col-md-6">
+                    <div class="class-card">
+                        <i class="fa-solid fa-child-reaching class-card-icon"></i>
+                        <h5>@cls.ClassName</h5>
+                        <p class="mb-1"><strong>Age Group:</strong> @cls.AgeGroup</p>
+                        <span class="seats-badge">@cls.Seats</span>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- Admission Process -->
+<section class="section bg-light-blue">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="section-tag">How to Apply</span>
+            <h2 class="section-title">Simple 4-Step Admission Process</h2>
+        </div>
+        <div class="row g-4">
+            @foreach (var step in SchoolData.AdmissionSteps)
+            {
+                <div class="col-lg-3 col-md-6">
+                    <div class="step-card">
+                        <div class="step-number">@step.StepNumber</div>
+                        <div class="step-icon"><i class="@step.Icon"></i></div>
+                        <h6>@step.Title</h6>
+                        <p>@step.Description</p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- Documents Required + CTA -->
+<section class="section">
+    <div class="container">
+        <div class="row g-4 align-items-stretch">
+            <div class="col-lg-7">
+                <div class="documents-card h-100">
+                    <span class="section-tag">Checklist</span>
+                    <h3 class="section-title">Documents Required</h3>
+                    <ul class="documents-list">
+                        <li><i class="fa-solid fa-file-circle-check"></i> Birth Certificate (original + photocopy)</li>
+                        <li><i class="fa-solid fa-file-circle-check"></i> Aadhaar Card of the Child</li>
+                        <li><i class="fa-solid fa-file-circle-check"></i> Address Proof (Parent/Guardian)</li>
+                        <li><i class="fa-solid fa-file-circle-check"></i> Previous School Transfer Certificate (if applicable)</li>
+                        <li><i class="fa-solid fa-file-circle-check"></i> Passport Size Photographs of Child &amp; Parents</li>
+                        <li><i class="fa-solid fa-file-circle-check"></i> Previous Year's Report Card (if applicable)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="admission-cta-card h-100">
+                    <i class="fa-solid fa-graduation-cap admission-cta-icon"></i>
+                    <h3>Ready to Join Vikram Public School?</h3>
+                    <p>Reach out to our admission desk today and take the first step towards your child's bright future.</p>
+                    <a asp-controller="Home" asp-action="Contact" class="btn btn-light-outline">
+                        <i class="fa-solid fa-phone me-2"></i>Contact Admission Desk
+                    </a>
+                    <p class="mt-3 mb-0"><i class="fa-solid fa-envelope me-2"></i>@SchoolData.AdmissionEmail</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

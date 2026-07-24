@@ -1,0 +1,55 @@
+@{
+    ViewData["Title"] = "Gallery";
+}
+
+<!-- Page Header -->
+<section class="page-header">
+    <div class="container">
+        <h1>School Gallery</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Gallery</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="section-tag">Campus Moments</span>
+            <h2 class="section-title">A Glimpse Into School Life</h2>
+            <p class="section-subtitle">Explore our campus, classrooms, laboratories and celebrations through pictures.</p>
+        </div>
+
+        <!-- Filter buttons -->
+        <div class="gallery-filters text-center mb-4">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="Campus">Campus</button>
+            <button class="filter-btn" data-filter="Academics">Academics</button>
+            <button class="filter-btn" data-filter="Sports">Sports</button>
+            <button class="filter-btn" data-filter="Events">Events</button>
+        </div>
+
+        <div class="row g-4" id="galleryGrid">
+            @foreach (var img in SchoolData.GalleryImages)
+            {
+                <div class="col-lg-4 col-md-6 gallery-item" data-category="@img.Category">
+                    <div class="gallery-card">
+                        <div class="gallery-card-img">
+                            <img src="@img.ImageUrl" alt="@img.Title" class="img-fluid" />
+                            <div class="gallery-card-overlay">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                        </div>
+                        <div class="gallery-card-body">
+                            <h6>@img.Title</h6>
+                            <span class="gallery-category-badge">@img.Category</span>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>

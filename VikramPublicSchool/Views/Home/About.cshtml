@@ -1,0 +1,178 @@
+@{
+    ViewData["Title"] = "About School";
+}
+
+<!-- Page Header -->
+<section class="page-header">
+    <div class="container">
+        <h1>About Our School</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">About</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+
+<!-- History Section -->
+<section class="section">
+    <div class="container">
+        <div class="row align-items-center gy-4">
+            <div class="col-lg-6">
+                <span class="section-tag">Our History</span>
+                <h2 class="section-title">A Journey of @(DateTime.Now.Year - int.Parse(SchoolData.EstablishedYear)) Years in Education</h2>
+                <p class="section-text">
+                    Founded in @SchoolData.EstablishedYear, Vikram Public School began with a simple vision - to provide
+                    quality, affordable primary education to the children of Sangam Vihar and surrounding areas of
+                    South Delhi. A privately managed, unaided institution, the school has grown into a trusted
+                    neighbourhood name known for personal attention and disciplined learning.
+                </p>
+                <p class="section-text">
+                    Today, Vikram Public School serves students from Nursery to Class 5, guided by a dedicated team
+                    of @SchoolData.TotalTeachers teachers maintaining a student-teacher ratio of @SchoolData.StudentTeacherRatio - ensuring every
+                    child gets the individual attention needed to reach their full potential.
+                </p> 
+            </div>
+            <div class="col-lg-6">
+                <img src="~/images/gallery-building.jpg" alt="School History" class="img-fluid rounded-4 shadow-soft" />    
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Vision & Mission -->
+<section class="section bg-light-blue">
+    <div class="container">
+        <div class="row g-4">  
+            <div class="col-lg-6">
+                <div class="vm-card">
+                    <div class="vm-icon"><i class="fa-solid fa-eye"></i></div>
+                    <h4>Our Vision</h4>
+                    <p>
+                        To be a centre of academic excellence that nurtures confident, responsible and
+                        compassionate individuals equipped to succeed in a rapidly changing world.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="vm-card">
+                    <div class="vm-icon"><i class="fa-solid fa-bullseye"></i></div>
+                    <h4>Our Mission</h4>
+                    <p>
+                        To provide a safe, inclusive and stimulating learning environment where academics,
+                        sports, arts and values are given equal importance in shaping every child's future.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Principal Message -->
+<section class="section principal-section">
+    <div class="container">
+        <div class="row align-items-center gy-4">
+            <div class="col-lg-4 text-center">
+                <img src="~/images/principal.jpg" alt="Principal, Vikram Public School" class="img-fluid principal-img shadow-soft" />
+            </div>
+            <div class="col-lg-8">
+                <span class="section-tag">Principal's Message</span>
+                <h2 class="section-title">Guiding Every Child with Care</h2>
+                <p class="principal-quote">
+                    <i class="fa-solid fa-quote-left me-2"></i>
+                    Education is not just about textbooks and examinations - it is about building character,
+                    curiosity and confidence. At Vikram Public School, our doors are always open to parents,
+                    and our teachers work tirelessly to ensure that every child feels valued, supported and
+                    inspired to learn.
+                </p>
+                <h6 class="principal-name mb-0">Mrs. Kavita Malhotra</h6>
+                <span class="principal-role">Principal, Vikram Public School</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Facilities -->
+<section class="section bg-light-blue">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="section-tag">Infrastructure</span>
+            <h2 class="section-title">Our Facilities</h2>
+        </div>
+        <div class="row g-4">
+            @foreach (var facility in SchoolData.Facilities)
+            {
+                <div class="col-lg-3 col-md-6">
+                    <div class="facility-card">
+                        <div class="facility-icon"><i class="@facility.Icon"></i></div>
+                        <h6>@facility.Title</h6>
+                        <p>@facility.Description</p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- Achievements -->
+<section class="section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="section-tag">Milestones</span>
+            <h2 class="section-title">Our Achievements</h2>
+        </div>
+        <div class="row g-4">
+            @foreach (var ach in SchoolData.Achievements)
+            {
+                <div class="col-lg-6">
+                    <div class="achievement-card">
+                        <div class="achievement-year">@ach.Year</div>
+                        <div>
+                            <h6>@ach.Title</h6>
+                            <p>@ach.Description</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- Timing / Medium / Campus Info -->
+<section class="section bg-light-blue">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <div class="info-card">
+                    <div class="info-card-icon"><i class="fa-solid fa-clock"></i></div>
+                    <h5>School Timing</h5>
+                    <ul class="info-list">
+                        @foreach (var timing in SchoolData.SchoolTimings)
+                        {
+                            <li><span>@timing.Day</span><strong>@timing.Time</strong></li>
+                        }
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="info-card">
+                    <div class="info-card-icon"><i class="fa-solid fa-language"></i></div>
+                    <h5>Medium of Instruction</h5>
+                    <p>English Medium, with Hindi taught as a second language from Class 1 onward.</p>
+                    <p class="mb-1">Classes: <strong>Nursery to Class 5</strong></p>
+                    <p class="mb-0">Student-Teacher Ratio: <strong>@SchoolData.StudentTeacherRatio</strong></p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="info-card">
+                    <div class="info-card-icon"><i class="fa-solid fa-building-columns"></i></div>
+                    <h5>Campus Information</h5>
+                    <p class="mb-1"><i class="fa-solid fa-location-dot me-2"></i>@SchoolData.Address</p>
+                    <p class="mb-1"><i class="fa-solid fa-users me-2"></i>Classes: Nursery to Class 5</p>
+                    <p class="mb-0"><i class="fa-solid fa-shield-halved me-2"></i>CCTV Monitored & Secure Campus</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,62 @@
+C:\Users\dbhar\Downloads\VikramPublicSchool\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\dbhar\Downloads\VikramPublicSchool\bin\Debug\net8.0\appsettings.json
+C:\Users\dbhar\Downloads\VikramPublicSchool\bin\Debug\net8.0\VikramPublicSchool.staticwebassets.runtime.json
+C:\Users\dbhar\Downloads\VikramPublicSchool\bin\Debug\net8.0\VikramPublicSchool.staticwebassets.endpoints.json
+C:\Users\dbhar\Downloads\VikramPublicSchool\bin\Debug\net8.0\VikramPublicSchool.exe
+C:\Users\dbhar\Downloads\VikramPublicSchool\bin\Debug\net8.0\VikramPublicSchool.deps.json
+C:\Users\dbhar\Downloads\VikramPublicSchool\bin\Debug\net8.0\VikramPublicSchool.runtimeconfig.json
+C:\Users\dbhar\Downloads\VikramPublicSchool\bin\Debug\net8.0\VikramPublicSchool.dll
+C:\Users\dbhar\Downloads\VikramPublicSchool\bin\Debug\net8.0\VikramPublicSchool.pdb
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\VikramPublicSchool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\VikramPublicSchool.AssemblyInfoInputs.cache
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\VikramPublicSchool.AssemblyInfo.cs
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\VikramPublicSchool.csproj.CoreCompileInputs.cache
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\VikramPublicSchool.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\VikramPublicSchool.RazorAssemblyInfo.cache
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\VikramPublicSchool.RazorAssemblyInfo.cs
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\scopedcss\bundle\VikramPublicSchool.styles.css
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\VikramPublicSchool.dll
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\refint\VikramPublicSchool.dll
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\VikramPublicSchool.pdb
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\VikramPublicSchool.genruntimeconfig.cache
+C:\Users\dbhar\Downloads\VikramPublicSchool\obj\Debug\net8.0\ref\VikramPublicSchool.dll
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\bin\Debug\net8.0\appsettings.json
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\bin\Debug\net8.0\VikramPublicSchool.staticwebassets.runtime.json
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\bin\Debug\net8.0\VikramPublicSchool.staticwebassets.endpoints.json
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\bin\Debug\net8.0\VikramPublicSchool.exe
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\bin\Debug\net8.0\VikramPublicSchool.deps.json
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\bin\Debug\net8.0\VikramPublicSchool.runtimeconfig.json
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\bin\Debug\net8.0\VikramPublicSchool.dll
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\bin\Debug\net8.0\VikramPublicSchool.pdb
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\VikramPublicSchool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\VikramPublicSchool.AssemblyInfoInputs.cache
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\VikramPublicSchool.AssemblyInfo.cs
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\VikramPublicSchool.csproj.CoreCompileInputs.cache
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\VikramPublicSchool.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\VikramPublicSchool.RazorAssemblyInfo.cache
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\VikramPublicSchool.RazorAssemblyInfo.cs
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\scopedcss\bundle\VikramPublicSchool.styles.css
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\VikramPublicSchool.dll
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\refint\VikramPublicSchool.dll
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\VikramPublicSchool.pdb
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\VikramPublicSchool.genruntimeconfig.cache
+C:\Users\Ashish negi\Downloads\wetransfer_vps-new_2026-07-24_0707\VikramPublicSchool\obj\Debug\net8.0\ref\VikramPublicSchool.dll
